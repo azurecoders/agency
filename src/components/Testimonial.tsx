@@ -145,7 +145,9 @@ const Testimonial = () => {
                     }`}
                   >
                     <p className="text-xl md:text-2xl font-light text-foreground/90 leading-relaxed mb-8">
-                      "{testimonial.content}"
+                      {'"'}
+                      {testimonial.content}
+                      {'"'}
                     </p>
 
                     <div className="flex items-center gap-4">

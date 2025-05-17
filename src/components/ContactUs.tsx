@@ -1,13 +1,6 @@
 "use client";
+import { CheckCircle, Mail, MessageSquare, Send, User } from "lucide-react";
 import React, { useState } from "react";
-import {
-  Send,
-  User,
-  Mail,
-  MessageSquare,
-  ArrowRight,
-  CheckCircle,
-} from "lucide-react";
 
 const ContactUs = () => {
   const [formState, setFormState] = useState({
@@ -46,11 +39,13 @@ const ContactUs = () => {
           Get in touch
         </span>
         <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6">
-          Let's <span className="text-primary">Connect</span>
+          {"Let's "}
+          <span className="text-primary">Connect</span>
         </h2>
         <p className="text-lg text-neutral-400 max-w-md mx-auto lg:mx-0">
-          Have questions or want to discuss a project? We're here to help bring
-          your ideas to life.
+          {
+            "Have questions or want to discuss a project? We're here to help bring your ideas to life."
+          }
         </p>
 
         {/* Contact info */}
@@ -76,7 +71,7 @@ const ContactUs = () => {
               </div>
               <h3 className="text-2xl font-bold mb-2">Thank you!</h3>
               <p className="text-neutral-400">
-                We've received your message and will get back to you soon.
+                {"We've received your message and will get back to you soon."}
               </p>
             </div>
           ) : (

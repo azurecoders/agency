@@ -120,9 +120,9 @@ const WhyUs = () => {
             </div>
             <div className="mt-6">
               <p className="text-foreground/70 text-base md:text-lg">
-                We've helped generate over $36M in revenue for our clients
-                globally through strategic AI implementation and data-driven
-                marketing solutions.
+                {
+                  "We've helped generate over $36M in revenue for our clientsglobally through strategic AI implementation and data-driven marketing solutions."
+                }
               </p>
               <div className="flex items-center gap-2 mt-6 text-primary">
                 <TrendingUp
